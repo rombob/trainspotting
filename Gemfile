@@ -25,7 +25,7 @@ gem 'georuby'
 gem 'gmaps4rails'
 gem 'geocoder'
 gem 'inherited_resources'
-gem 'mysql2'
+#gem 'mysql2'
 gem 'devise'
 
 # Use unicorn as the web server

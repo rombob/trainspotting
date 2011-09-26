@@ -6323,3 +6323,229 @@ ActionController::RoutingError (No route matches [GET] "/assets/plugins.js"):
   
 
 Rendered /home/rombob/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-09-26 19:29:28 +0300
+Served asset /rails.png - 200 OK (2ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2011-09-26 19:29:38 +0300
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+Rendered users/index.html.haml within layouts/application (36.6ms)
+Rendered layouts/_stylesheets.html.haml (5.0ms)
+Rendered layouts/_head.html.haml (15.4ms)
+Rendered layouts/_header.html.haml (1.0ms)
+Rendered layouts/_flashes.html.haml (1.6ms)
+Rendered layouts/_footer.html.haml (1.3ms)
+Compiled application.js  (5ms)  (pid 1870)
+Compiled jquery.js  (31ms)  (pid 1870)
+Compiled jquery_ujs.js  (0ms)  (pid 1870)
+Compiled gmaps4rails/googlemaps.js  (2ms)  (pid 1870)
+Compiled gmaps4rails/gmaps4rails.base.js  (853ms)  (pid 1870)
+Compiled gmaps4rails/gmaps4rails.googlemaps.js  (279ms)  (pid 1870)
+Rendered layouts/_javascripts.html.haml (1468.9ms)
+Completed 200 OK in 1579ms (Views: 1578.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+Served asset /style.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/style.css"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/modernizr.min" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+Served asset /modernizr.min - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/modernizr.min"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/respond.min" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+Served asset /respond.min - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/respond.min"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+Served asset /rails.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/plugins.js" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+Served asset /plugins.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/plugins.js"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:40 +0300
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/trips.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /trips.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /gmaps4rails/gmaps4rails.base.js - 200 OK (4ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 200 OK (4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.haml (15.0ms)
+Rendered users/new.html.haml within layouts/application (17.3ms)
+Rendered layouts/_stylesheets.html.haml (3.8ms)
+Rendered layouts/_head.html.haml (11.1ms)
+Rendered layouts/_header.html.haml (0.0ms)
+Rendered layouts/_flashes.html.haml (0.1ms)
+Rendered layouts/_footer.html.haml (0.1ms)
+Rendered layouts/_javascripts.html.haml (38.4ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.base.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /gmaps4rails/gmaps4rails.base.js - 200 OK (0ms)
+
+
+Started GET "/assets/gmaps4rails/gmaps4rails.googlemaps.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /gmaps4rails/gmaps4rails.googlemaps.js - 200 OK (0ms)
+
+
+Started GET "/assets/trips.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /trips.js - 200 OK (0ms)
+
+
+Started GET "/assets/gmaps4rails/googlemaps.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /gmaps4rails/googlemaps.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /style.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/style.css"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/modernizr.min" for 127.0.0.1 at 2011-09-26 19:29:50 +0300
+Served asset /modernizr.min - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/modernizr.min"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1i+MMOCAoxXQ7E+3sHLyw8CwD+LN0LWQunqEtpbM45I=", "user"=>{"name"=>"oded"}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE "users"."name" = 'oded' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.3ms)
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/devise-1.4.7/app/views/devise/registrations/new.html.erb within layouts/application (6.5ms)
+Rendered layouts/_stylesheets.html.haml (3.5ms)
+Rendered layouts/_head.html.haml (10.7ms)
+Rendered layouts/_header.html.haml (0.0ms)
+Rendered layouts/_flashes.html.haml (0.1ms)
+Rendered layouts/_footer.html.haml (0.1ms)
+Rendered layouts/_javascripts.html.haml (35.8ms)
+Completed 200 OK in 174ms (Views: 60.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/modernizr.min" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /modernizr.min - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/modernizr.min"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/respond.min" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /respond.min - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/respond.min"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/rails.js" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /rails.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.js"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /style.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/style.css"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/plugins.js" for 127.0.0.1 at 2011-09-26 19:29:54 +0300
+Served asset /plugins.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/plugins.js"):
+  
+
+Rendered /Users/odedharth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
