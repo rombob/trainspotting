@@ -1,0 +1,26 @@
+%h1 Listing stations
+
+%table
+  %tr
+    %th Name
+    %th Address
+    %th Longitude
+    %th Latitude
+    %th
+    %th
+    %th
+
+  - @stations.each do |station|
+    %tr
+      %td= station.name
+      %td= station.address
+      %td= station.longitude
+      %td= station.latitude
+      %td= link_to 'Show', station
+      %td= link_to 'Edit', edit_station_path(station)
+      %td= link_to 'Destroy', station, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Station', new_station_path
+= link_to 'Home Page', home_index_path

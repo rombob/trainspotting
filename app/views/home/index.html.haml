@@ -1,4 +1,4 @@
 %h1 Home#index
-%p Find me in app/views/home/index.html.haml
-= debug @json2
+%p Stations Map
+= link_to 'Manage Stations', stations_path
 = gmaps4rails(@json)
